@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- primary -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css" rel="preload" as="style">
+    <link href="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/static/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/static/img/common/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <!-- exclude top -->
+	        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" type="text/css"> -->
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" rel="stylesheet" type="text/css"> -->
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" rel="stylesheet" type="text/css"> -->
+
+	
+    <!-- sub-page-setting -->
+	
+	
+    
+    <!-- new styles -->
+    <link rel="stylesheet" type="text/css" href="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/styles/styles.css">
+
+
+        
+<title>ページが見つかりませんでした &#8211; 大人のスキーツアー＆スノボツアーの四季スキー</title>
+
+
+            
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KPR9PP');</script>
+    <!-- End Google Tag Manager -->
+
+	
+<!-- All in One SEO Pack 3.2.10 によって Michael Torbert の Semper Fi Web Design[-1,-1] -->
+<script type="application/ld+json" class="aioseop-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.shikiclub.co.jp/ski/#organization","url":"https://www.shikiclub.co.jp/ski/","name":"\u5927\u4eba\u306e\u30b9\u30ad\u30fc\u30c4\u30a2\u30fc\uff06\u30b9\u30ce\u30dc\u30c4\u30a2\u30fc\u306e\u56db\u5b63\u30b9\u30ad\u30fc","sameAs":[]},{"@type":"WebSite","@id":"https://www.shikiclub.co.jp/ski/#website","url":"https://www.shikiclub.co.jp/ski/","name":"\u5927\u4eba\u306e\u30b9\u30ad\u30fc\u30c4\u30a2\u30fc\uff06\u30b9\u30ce\u30dc\u30c4\u30a2\u30fc\u306e\u56db\u5b63\u30b9\u30ad\u30fc","publisher":{"@id":"https://www.shikiclub.co.jp/ski/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.shikiclub.co.jp/ski/?s={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- All in One SEO Pack -->
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.shikiclub.co.jp\/ski\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.12"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='eo-leaflet.js-css'  href='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/event-organiser/lib/leaflet/leaflet.min.css?ver=1.4.0' type='text/css' media='all' />
+<style id='eo-leaflet.js-inline-css' type='text/css'>
+.leaflet-popup-close-button{box-shadow:none!important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-theme-css'  href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=1.11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-css'  href='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.css?ver=4.9.12' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-confirm-css'  href='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-add-confirm/includes/css/styles.css?ver=5.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://www.shikiclub.co.jp/ski/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.shikiclub.co.jp/ski/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.shikiclub.co.jp/ski/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.12" />
+<link rel="icon" href="https://www.shikiclub.co.jp/ski/wp/wp-content/uploads/2025/09/cropped-ski_logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.shikiclub.co.jp/ski/wp/wp-content/uploads/2025/09/cropped-ski_logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.shikiclub.co.jp/ski/wp/wp-content/uploads/2025/09/cropped-ski_logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.shikiclub.co.jp/ski/wp/wp-content/uploads/2025/09/cropped-ski_logo-270x270.png" />
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPR9PP"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="normal">
+    <div class="primary">
+        <div class="inner_sec">
+            <a href="https://www.shikiclub.co.jp/ski/" class="logo"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/logo.png" alt="大人のスキーツアー＆スノボツアーの四季スキー"></a>
+            <div class="links">
+                <ul class="sns">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/shikiclub/"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_facebook.png" alt="Facebook"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://x.com/shikiclub"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_twitter.png" alt="Twitter"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/shiki_ski/"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_instagram.png" alt="Instagram"></a>
+                    </li>
+                </ul>
+                <div class="tel"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/tel.png" alt="03-5577-2292 お電話でのお問い合わせはこちら （平日10時〜17時）"></div>
+                <div class="user">
+                    <a class="n1" target="_blank" href="https://www.shikisystems.com/centry/index/1?_ga=2.185440942.661074777.1662087104-160277803.1659604029">
+                        <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/registration.png" alt="新規会員登録">
+                    </a>
+                    <a class="n2" target="_blank" href="https://www.shikisystems.com/cmypage/?_ga=2.185964078.661074777.1662087104-160277803.1659604029">
+                        <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/login.png" alt="会員ログイン">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="global">
+        <ul class="root">
+            <li class="root_child list-btn">
+                <div class="root_child_text">バスツアーから探す</div>
+                <ul class="sub-panel">
+                    <li><a href="https://www.shikiclub.co.jp/ski/bustour/" class="in_text">バスツアーTOP</a></li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/nicemiddle/" class="in_text">大人のスキーツアー<br>ナイスミドル</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/bluebirdtours/" class="in_text">大人のスノーボードツアー <br>ブルーバード ツアーズ</a>
+                    </li> -->
+
+                    <!-- <li><a href="https://www.shikiclub.co.jp/ski/bustour/special-b/koikatsu/" class="in_text">婚活・恋活ツアー</a></li> -->
+                    <li><a href="https://www.shikiclub.co.jp/ski/gerende/yeti/h565s/" class="in_text">ちびっこのスキースノボツアー</a></li>
+                    <!-- <li><a href="https://www.shikiclub.co.jp/ski/bustour/special-b/children-family/" class="in_text">[特集]ファミリースキースノボ</a></li> -->
+                    <li><a href="https://www.shikiclub.co.jp/ski/bustour/special-b/lesson/" class="in_text">レッスン付スキーツアー</a></li>
+                    <li><a href="https://www.shikiclub.co.jp/ski/h361/" class="in_text">奥日光でスノーシュー</a></li>
+
+
+
+                </ul>
+            </li>
+            <li class="root_child list-btn">
+                <div class="root_child_text">マイカープランから探す</div>
+                <ul class="sub-panel">
+                    <!-- <li><a href="https://www.shikiclub.co.jp/ski/ryokoshien/" class="in_text">全国旅行支援特集</a></li> -->
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/" class="in_text">条件からマイカープランを探す</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/reasonable/" class="in_text">とにかく安い宿</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/onsen/" class="in_text">風呂自慢 温泉の宿</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/gerendeside/" class="in_text">ゲレンデに近い宿</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/nearaccess/" class="in_text">東京から楽々アクセス</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="root_child">
+                <a href="https://www.shikiclub.co.jp/ski/accommodation/" class="root_child_text">宿泊施設一覧</a>
+            </li>
+            <li class="root_child">
+                <a href="https://www.shikiclub.co.jp/ski/gerende/" class="root_child_text">スキー場・ゲレンデ一覧</a>
+            </li>
+            <li class="root_child">
+                <a href="https://www.shikiclub.co.jp/ski/group/" class="root_child_text">団体旅行のお見積もり</a>
+            </li>
+            <li class="root_child list-btn">
+                <div class="root_child_text">各種ご案内</div>
+                <ul class="sub-panel">
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/" class="in_text">ご案内のTOP</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/faq/" class="in_text">ご質問・Q&A</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/reservation/" class="in_text">お申込の流れ</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/panph/" class="in_text">パンフレット請求</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/information/" class="in_text">ツアー運行状況</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/deperture_place/" class="in_text">バスツアー集合出発場所</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/conditions/" class="in_text">旅行条件書</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/bus_info/" class="in_text">安全運行への取り組み</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/company/" class="in_text">会社案内</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/others/recruit/" class="in_text">採用情報</a>
+                    </li>
+                    <li>
+                        <a href="https://www.shikiclub.co.jp/ski/sitemap/" class="in_text">サイトマップ</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<header class="nav_drawer">
+    <div class="drawer_bg"></div>
+    <div class="inner_sec">
+        <a href="https://www.shikiclub.co.jp/ski/" class="logo"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/logo_s.png" alt="大人のスキーツアー＆スノボツアーの四季スキー"></a>
+        <div class="user">
+            <a class="n1" target="_blank" href="https://www.shikisystems.com/centry/index/1?_ga=2.185440942.661074777.1662087104-160277803.1659604029">
+                <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/registration_s.png" alt="新規会員登録">
+            </a>
+            <a class="n2" target="_blank" href="https://www.shikisystems.com/cmypage/?_ga=2.185964078.661074777.1662087104-160277803.1659604029">
+                <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/login_s.png" alt="会員ログイン">
+            </a>
+        </div>
+    </div>
+    <button type="button" class="drawer_button"></button>
+    <nav class="drawer_nav_wrapper" id="drawer">
+		<div class="nav_s">
+	<a href="https://www.shikiclub.co.jp/ski/" class="grandmother">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_1_s.png" alt=""></div>
+		<div class="in-text">トップ</div>
+	</a>
+
+	<div class="grandmother toggle" data-title="panel_1">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_2_s.png" alt=""></div>
+		<div class="in-text">バスツアーから探す</div>
+	</div>
+	<div id="panel_1" class="rev_1_panel">
+		<a href="https://www.shikiclub.co.jp/ski/bustour/" class="child first">
+			<div class="in-text">バスツアーTOP</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/bustour/special-b/nicemiddle/" class="child">
+			<div class="in-text">大人のスキーツアー　ナイスミドル</div>
+		</a>
+
+		<!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/bluebirdtours/" class="child">
+			<div class="in-text">大人のスノーボードツアー <br>ブルーバード ツアーズ</div>
+		</a> -->
+
+
+		<!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/koikatsu/" class="child">
+				<div class="in-text">婚活・恋活ツアー</div>
+			</a> -->
+			<a href="https://www.shikiclub.co.jp/ski/gerende/yeti/h565s/" class="child">
+				<div class="in-text">ちびっこのスキースノボツアー</div>
+			</a>
+			<!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/children-family/" class="child">
+				<div class="in-text">[特集]ファミリースキースノボ</div>
+			</a> -->
+			<a href="https://www.shikiclub.co.jp/ski/bustour/special-b/lesson/" class="child">
+				<div class="in-text">レッスン付スキーツアー</div>
+			</a>
+			<a href="https://www.shikiclub.co.jp/ski/h361/" class="child">
+				<div class="in-text">奥日光でスノーシュー</div>
+			</a>
+
+
+
+	</div>
+
+	<div class="grandmother toggle" data-title="panel_2">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_3_s.png" alt=""></div>
+		<div class="in-text">マイカープランから探す</div>
+	</div>
+	<div id="panel_2" class="rev_1_panel">
+		<!-- <a href="https://www.shikiclub.co.jp/ski/ryokoshien/" class="child">
+			<div class="in-text">全国旅行支援特集</div>
+		</a> -->
+		<a href="https://www.shikiclub.co.jp/ski/mycarplan/" class="child first">
+			<div class="in-text">マイカープラン各種ご案内</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/reasonable/" class="child">
+			<div class="in-text">とにかく安い宿</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/onsen/" class="child">
+			<div class="in-text">風呂自慢 温泉の宿</div>
+		</a>
+
+		<a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/gerendeside/" class="child">
+			<div class="in-text">ゲレンデに近い宿</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/nearaccess/" class="child">
+			<div class="in-text">東京から楽々アクセス</div>
+		</a>
+	</div>
+
+	<a href="https://www.shikiclub.co.jp/ski/group/" class="grandmother">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_4_s.png" alt=""></div>
+		<div class="in-text">団体＆貸切旅行の見積り依頼</div>
+	</a>
+
+	<a href="https://www.shikiclub.co.jp/ski/accommodation/" class="grandmother">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_5_s.png" alt=""></div>
+		<div class="in-text">宿泊施設一覧</div>
+	</a>
+
+	<a href="https://www.shikiclub.co.jp/ski/gerende/" class="grandmother">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_6_s.png" alt=""></div>
+		<div class="in-text">スキー場・ゲレンデ一覧</div>
+	</a>
+
+	<div class="grandmother toggle" data-title="panel_3">
+		<div class="icon"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/head_7_s.png" alt=""></div>
+		<div class="in-text">各種ご案内</div>
+	</div>
+	<div id="panel_3" class="rev_1_panel">
+		<a href="https://www.shikiclub.co.jp/ski/others/" class="child first">
+			<div class="in-text">ご案内のTOP</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/faq/" class="child">
+			<div class="in-text">ご質問・Q&A</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/reservation/" class="child">
+			<div class="in-text">お申込の流れ</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/panph/" class="child">
+			<div class="in-text">パンフレット請求</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/information/" class="child">
+			<div class="in-text">ツアー運行状況</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/deperture_place/" class="child">
+			<div class="in-text">バスツアー集合出発場所</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/conditions/" class="child">
+			<div class="in-text">旅行条件書</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/bus_info/" class="child">
+			<div class="in-text">安全運行への取り組み</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/company/" class="child">
+			<div class="in-text">会社案内</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/others/recruit/" class="child">
+			<div class="in-text">採用情報</div>
+		</a>
+		<a href="https://www.shikiclub.co.jp/ski/sitemap/" class="child">
+			<div class="in-text">サイトマップ</div>
+		</a>
+	</div>
+
+</div>
+
+        <div class="screen">
+            <ul class="user">
+                <a class="n1" target="_blank" href="https://www.shikisystems.com/centry/index/1?_ga=2.185440942.661074777.1662087104-160277803.1659604029">
+                    <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_registration_s.png" alt="新規会員登録">
+                </a>
+                <a class="n2" target="_blank" href="https://www.shikisystems.com/cmypage/?_ga=2.185964078.661074777.1662087104-160277803.1659604029">
+                    <img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_login_s.png" alt="会員ログイン">
+                </a>
+            </ul>
+            <a href="tel:03-5577-2292" class="tel_s"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/tel_s.png" alt="03-5577-2292"></a>
+            <ul class="sns">
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/shikiclub/"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/shikiclub"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_twitter.png" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/rabutabi/"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/sns_instagram.png" alt="Instagram"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+	<article>
+
+		<section id="page">
+			<div class="inner">
+				<div class="breadcrumbs"><!-- Breadcrumb NavXT 6.3.0 -->
+<span itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a title="大人のスキーツアー＆スノボツアーの四季スキー" href="https://www.shikiclub.co.jp/ski/" itemprop="url"><span itemprop="title">スキーツアーTOP</span></a></span> &gt; <span itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a title="404" href="" itemprop="url"><span itemprop="title">404</span></a></span></div>
+				<h1 class="h1_ttl">404エラー</h1>
+				<p class="text page_txt">お探しのページは見つかりませんでした。<br>URLが間違っているか、ページが存在しない可能性がございます。<br><br><a href="https://www.shikiclub.co.jp/ski/" class="page_link">TOPへ戻る</a></p>
+			</div>
+		</section>
+
+	</article>
+</main>
+
+<footer class="normal">
+    <div id="nav_foot">
+        <div class="inner_sec">
+            <div class="contents">
+
+            <div class="wrap-sp">
+                <div class="box n1">
+                    <h3 class="label">バスツアーから探す</h3>
+
+                    <a href="https://www.shikiclub.co.jp/ski/bustour/" class="single">バスツアー各種ご案内</a>
+
+
+                    <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/nicemiddle/" class="single">大人のスキーツアー<br class="inline_s">ナイスミドル</a>
+                    <!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/bluebirdtours/" class="single">大人のスノーボードツアー <br>ブルーバード ツアーズ</a> -->
+
+
+                    <!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/koikatsu/" class="single">婚活・恋活ツアー</a> -->
+                    <a href="https://www.shikiclub.co.jp/ski/gerende/yeti/h565s/" class="single">ちびっこのスキースノボツアー</a>
+                    <!-- <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/children-family/" class="single">[特集]ファミリースキースノボ</a> -->
+                    <a href="https://www.shikiclub.co.jp/ski/bustour/special-b/lesson/" class="single">レッスン付スキーツアー</a>
+                    <a href="https://www.shikiclub.co.jp/ski/h361/" class="single last">奥日光でスノーシュー</a>
+
+
+                </div>
+
+                <div class="box n2">
+                        <h3 class="label">マイカープランから探す</h3>
+                        <!-- <a href="https://www.shikiclub.co.jp/ski/ryokoshien/" class="single">全国旅行支援特集</a> -->
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/" class="single">条件からマイカープランを探す</a>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/reasonable/" class="single">とにかく安い宿</a>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/onsen/" class="single">風呂自慢 温泉の宿</a>
+
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/gerendeside/" class="single">ゲレンデに近い宿</a>
+                        <a href="https://www.shikiclub.co.jp/ski/mycarplan/special-m/nearaccess/" class="single last">東京から楽々アクセス</a>
+                </div>
+                </div>
+
+
+
+
+                <div class="wrap-sp">
+
+
+
+                    <div class="box n3">
+                        <a href="https://www.shikiclub.co.jp/ski/group/" class="label">団体＆貸切旅行の<br>見積り依頼</a>
+                        <a href="https://www.shikiclub.co.jp/ski/accommodation/" class="label">宿泊施設一覧</a>
+                        <a href="https://www.shikiclub.co.jp/ski/gerende/" class="label">スキー場・ゲレンデ一覧</a>
+                    </div>
+                    <div class="box n4">
+                        <h3 class="label">各種ご案内</h3>
+                        <a href="https://www.shikiclub.co.jp/ski/others/" class="single">ご案内のTOP</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/faq/" class="single">ご質問・Q&A</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/reservation/" class="single">お申込の流れ</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/panph/" class="single">パンフレット請求</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/information/" class="single">ツアー運行状況</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/deperture_place/" class="single">バスツアー集合出発場所</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/conditions/" class="single">旅行条件書</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/bus_info/" class="single">安全運行への取り組み</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/company/" class="single">会社案内</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/recruit/" class="single">採用情報</a>
+                        <a href="https://www.shikiclub.co.jp/ski/others/sdgs/" class="single">SDGs</a>
+                        <a href="https://www.shikiclub.co.jp/ski/sitemap/" class="single">サイトマップ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="id">
+        <div class="inner_sec">
+            <div class="sns">
+                <h3 class="ttl_id">四季倶楽部旅のSNS</h3>
+                <div class="contents">
+                    <a target="_blank" href="https://www.facebook.com/shikiclub/">
+                        <img class="image" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_facebook.png" alt="Facebook ツアーに参加する際の便利情報や、お客様とのコミュニケーションの場です">
+                        <img class="image_s" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_facebook_s.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://x.com/shikiclub">
+                        <img class="image" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_twitter.png" alt="Twitter 社内からスタッフから現地から、気軽に現在のツアー情報をお伝えしております">
+                        <img class="image_s" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_twitter_s.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/shiki_ski/">
+                        <img class="image" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_instagram.png" alt="Instagram お客様のゲレンデでの写真や、添乗員が撮影した写真を投稿しております">
+                        <img class="image_s" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_instagram_s.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://lin.ee/UK9UmeE">
+                        <img class="image" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_line.png" alt="Instagram 友達登録するとおすすめ情報の配信や、お得な500円クーポン付きです">
+                        <img class="image_s" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_line_s.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <aside class="other n1">
+                <div class="contents">
+                    <div class="box">
+                        <h3 class="ttl_id">四季倶楽部旅のメルマガ</h3>
+                        <p class="text">緊急配信のお得なツアー紹介、ツアーレポート、現地からの動画配信などの最新情報を不定期でお送りしております。</p>
+                    </div>
+                    <a target="_blank" href="https://a25.hm-f.jp/index.php?action=R1&a=278&g=2&f=3&fa_code=4a18b3bd6bcc6181eb1d6f180d9992b4" class="btn_mail-magazine">
+                        <img class="image" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_mail-magazine.png" alt="メルマガを購読する">
+                        <img class="image_s" src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/btn_mail-magazine_s.png" alt="メルマガを購読する">
+                    </a>
+                </div>
+            </aside>
+            <aside class="other n2">
+                <h3 class="ttl_id grouplogo"><a target="_blank" href="https://www.shikiclub.co.jp"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/shikigroup_logo.png" alt="四季グループ"></a></h3>
+                <div class="contents">
+                    <div class="box">
+                        <div class="ttl">四季の旅</div>
+                        <a target="_blank" href="https://www.shikiclub.co.jp/shikitabi/">▶︎ バスツアー・<br><span class="spacer"></span>日帰りバスツアー</a>
+                    </div>
+                    <div class="box">
+                        <div class="ttl">SMT</div>
+                        <a target="_blank" href="http://www.snow-and-mountain-travel.com/index.php">▶︎ 海外スキーツアー</a>
+                    </div>
+                    <div class="box">
+                        <div class="ttl">海外向け</div>
+                        <a target="_blank" href="https://www.favorite-japan-guide.com/">▶︎ Favorite Japan <br><span class="spacer"></span>Guide Tour</a>
+                    </div>
+                    <div class="box">
+                        <div class="ttl">四季ネクサス</div>
+                        <a target="_blank" href="https://www.shikiclub.co.jp/nexus/">▶︎ 大学生スノボ合宿・<br><span class="spacer"></span>サークル合宿</a>
+                    </div>
+                    <div class="box">
+                        <div class="ttl">四季膳</div>
+                        <a target="_blank" href="https://shiki-zen.com">▶︎ オーガニック/<br><span class="spacer"></span>無農薬野菜のレストラン</a>
+                    </div>
+                </div>
+            </aside>
+
+            <a href="https://www.shikiclub.co.jp/ski/" class="logo_foot"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/logo_footer.png" alt="大人のスキーツアー＆スノボツアーの四季スキー"></a>
+
+            <div class="info">
+                <div class="box">
+                    <div class="text">
+                        観光庁長官登録旅行業 第1919号<br class="inline_p">全国旅行業協会正会員
+                    </div>
+                    <h2 class="ttl_site">
+                        <span class="sub">【主催企画実施】</span><span class="in-text">株式会社 四季倶楽部旅</span></h2>
+                    <address class="text">
+                        〒101-0052 東京都千代田区<br class="inline_p">
+                        神田小川町3-1-1 BMビル7階
+                    </address>
+                </div>
+                <div class="box">
+                    <div class="tel"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/tel_footer.png" alt="03-5577-2292"></div>
+                    <a class="tel_s" href="tel:03-5577-2292"><img src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/images/common/tel_footer.png" alt="03-5577-2292"></a>
+                    <h4 class="ttl_time">営業時間</h4>
+                    <p class="text">平日：10:00～17:00<br>
+休業日：土曜・日曜・祝日(特定日除く)</p>
+                </div>
+                <div class="box">
+                    <p class="note">※特定日・休業日については<a href="https://www.shikiclub.co.jp/ski/others/faq/others/#yoyakucenter" class="page_link">こちら</a><br>
+                        ※新型コロナウイルス感染状況により、営業体制につきまして急遽変更となる場合がございます。お客様にはご迷惑・ご不便をおかけしますが、ご理解ご協力のほどお願い申し上げます。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <address id="copyright">© 1978 Shikiclub Travel Corporation.</address>
+</footer>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.shikiclub.co.jp\/ski\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.5'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u9589\u3058\u308b","currentText":"\u4eca\u65e5","monthNames":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"monthNamesShort":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"nextText":"\u6b21\u3078","prevText":"\u524d","dayNames":["\u65e5\u66dc\u65e5","\u6708\u66dc\u65e5","\u706b\u66dc\u65e5","\u6c34\u66dc\u65e5","\u6728\u66dc\u65e5","\u91d1\u66dc\u65e5","\u571f\u66dc\u65e5"],"dayNamesShort":["\u65e5","\u6708","\u706b","\u6c34","\u6728","\u91d1","\u571f"],"dayNamesMin":["\u65e5","\u6708","\u706b","\u6c34","\u6728","\u91d1","\u571f"],"dateFormat":"yy\u5e74mm\u6708d\u65e5","firstDay":0,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/i18n/datepicker-ja.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.js?ver=4.9.12'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/i18n/jquery-ui-timepicker-ja.js?ver=4.9.12'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-sliderAccess.js?ver=4.9.12'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-content/plugins/contact-form-7-add-confirm/includes/js/scripts.js?ver=5.1'></script>
+<script type='text/javascript' src='https://www.shikiclub.co.jp/ski/wp/wp-includes/js/wp-embed.min.js?ver=4.9.12'></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
+<script src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/js/nav_drawer.js" defer></script>
+<script src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/js/slick.min.js" defer></script>
+<script src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/js/override.js" defer></script>
+<script src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/js/jquery.matchHeight.js" defer></script>
+<script src="https://www.shikiclub.co.jp/ski/wp/wp-content/themes/shikitabi-ski2022/static/js/javascript.js"></script>
+
+<script>
+    $(function () {
+        $('.slider_s').slick({
+            autoplay: true,
+            centerMode: true,
+            centerPadding: '10vw',
+            slidesToShow: 1,
+            dots: true,
+            arrows: true,
+            prevArrow: '<div class="slider_arrow_s preview"></div>',
+            nextArrow: '<div class="slider_arrow_s next"></div>',
+        });
+
+        $('.slider-for').slick({
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-nav',
+            prevArrow: '<div class="slider_arrow preview"></div>',
+            nextArrow: '<div class="slider_arrow next"></div>',
+        });
+        $('.slider-nav').slick({
+            //autoplay: true,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            arrows: false,
+            centerMode: true,
+            centerPadding: '80px',
+            slidesToShow: 5,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 750,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                }
+            ]
+        });
+
+    });
+</script>
+<script>
+    $(function () {
+        $('.slider_s .box').matchHeight();
+        $('.slider_s .box .title').matchHeight();
+        $('.recommend-items li').matchHeight();
+        $('.plan-items li').matchHeight();
+        $('.plan-items li .label').matchHeight();
+    });
+</script>
+
+</body>
+</html>
