@@ -137,6 +137,8 @@ main :is(h2,h3,h4,.tour_lst_ttl,.ttl_box){word-break:auto-phrase}
 main :is(#voices,#faq,#reason,.half_box,.review__cg) :is(p,.text,.lead){font-size:16px !important;line-height:1.8 !important;word-break:normal !important}
 main #staff :is(p,.text,.lead){font-size:15px !important;line-height:1.7 !important;word-break:normal !important}
 main :is(.dp-card,.ot-card,.asa-card,.sf-item,.tour_lst_ttl,.attractive__txt,.staff__txt,td,th,li){word-break:normal !important}
+main .plan-items .text{word-break:normal !important;font-size:16px !important;line-height:1.8 !important}
+main .plan-items .title{word-break:normal !important}
 </style>
 <style id="asa-fontsw">
 html.asa-mincho main :is(h1,h2,h3,h4,.in_text,.faq_ttl,.h1_ttl,.h2_ttl,.h3_ttl,.ttl_box,.tour_lst_ttl,.asa-card__ttl,.ot-h2,.sf-diary__h,.rp-h2,.dp-h2):not(.asa-ph *):not(.fa):not(.fas):not(.fab):not(.far):not(.tagline):not(.asa-fontsw *):not(.zz1):not(.zz2){font-family:"游明朝",YuMincho,"Hiragino Mincho ProN","ヒラギノ明朝 ProN W3","Sawarabi Mincho",serif !important;font-weight:600}
@@ -181,8 +183,15 @@ main h1.h1_ttl,main h2.in_text,main h3.ttl_box,main .faq_ttl,main .h2_ttl,main .
 <style id="asa-nav-cur">
 @media(min-width:751px){#global .root .root_child.is-current .root_child_text{position:relative}#global .root .root_child.is-current .root_child_text::after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:2px;background:#fff;border-radius:1px}#global .root .root_child.cta_child.is-current .root_child_text::after{bottom:6px;left:16px;right:16px}}
 </style>
-<style id="asa-vsw">.asa-vsw{position:fixed;right:12px;bottom:96px;z-index:99999;display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid #c9d0dc;border-radius:12px;padding:10px 12px;font-size:12px;color:#666;box-shadow:0 2px 8px rgba(0,0,0,.12)}.asa-vsw span{font-size:11px}.asa-vsw a{display:block;padding:5px 12px;border:1px solid #0a2463;border-radius:999px;color:#0a2463;text-decoration:none;font-size:12px;white-space:nowrap}.asa-vsw a.on{background:#0a2463;color:#fff}@media print{.asa-vsw{display:none}}</style>
 <style id="asa-list-bottom">#page .mc-list,#page .ot-list:last-of-type,#page .gb:last-of-type{margin-bottom:80px}</style>
+<style id="asa-ls-tags">.ls-tags{display:flex;gap:6px;margin:0 0 8px}.ls-tag{display:inline-block;font-size:12px;line-height:1;padding:5px 9px;border-radius:3px;background:#0a2463;color:#fff;font-weight:bold}.ls-tag--bus{background:#e8710a;color:#fff}
+.ls-tags{min-height:22px}
+main .plan-items li .in_box .title{min-height:63px;-webkit-line-clamp:2}
+main .plan-items li .in_box .text{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;height:auto;min-height:calc(1.8em * 3);margin-bottom:24px}
+@media(max-width:750px){.ls-tags{min-height:5vw}main .plan-items li .in_box .title{min-height:0;height:13.2vw}main .plan-items li .in_box .text{height:auto;min-height:18.36vw}}</style>
+<style id="asa-filter">.asa-filter{max-width:1000px;margin:26px auto 0;display:flex;justify-content:center;gap:10px}.af-btn{appearance:none;border:1px solid #0a2463;background:#fff;color:#0a2463;font-weight:bold;font-size:15px;line-height:1;padding:12px 22px;border-radius:999px;cursor:pointer}.af-btn.is-on{background:#0a2463;color:#fff}.af-btn:hover{opacity:.85}@media(max-width:750px){.asa-filter{gap:6px;margin:5vw auto 3vw}.af-btn{font-size:13px;padding:10px 12px;flex:1}}.plan-items li.is-hide,section.item-list.is-hide,.anc.is-hide{display:none !important}
+main .nav_area{margin-top:18px !important}
+@media(max-width:750px){main .nav_area{margin:4vw 0 5vw !important}main .nav_area li{margin:0 0 2% !important}main .nav_area li a{padding:2.6vw 6vw 2.6vw !important;font-size:3.4vw !important}}</style>
 </head>
 
 <body>
@@ -313,19 +322,1499 @@ main h1.h1_ttl,main h2.in_text,main h3.ttl_box,main .faq_ttl,main .h2_ttl,main .
 	</div>
 </nav></header>
 <main role="main">
-  <article>
-    <section id="page">
-      <div class="inner">
-        <div class="breadcrumbs"><a href="../index.html">スキーツアーTOP</a> &gt; <span>スキー場＆ホテル</span></div>
-        <h1 class="h1_ttl">スキー場＆ホテル</h1>
+    <article>
+        <section id="page">
+            <div class="inner">
+                <div class="breadcrumbs">
+					<!-- Breadcrumb NavXT 6.3.0 -->
+<span itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a title="大人のスキーツアー＆スノボツアーの四季スキー" href="../index.html" itemprop="url"><span itemprop="title">スキーツアーTOP</span></a></span> &gt; <span itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">スキー場検索・ゲレンデ情報</span></span>                </div>
+
+                <h1 class="h1_ttl">取扱いスキー場ゲレンデガイド</h1>
+
+                <div class="visual_area">
+                    <img class="image" src="../assets/ski/wp/wp-content/themes/shikitabi-ski2022/images/gerende/gerende.jpg" alt="スキー場ゲレンデから探す">
+                    <img class="image_s" src="../assets/ski/wp/wp-content/themes/shikitabi-ski2022/images/gerende/gerende_s.jpg" alt="スキー場ゲレンデから探す">
+                </div>
+
+                <div class="pc">
+                    <p class="cf b20 text">四季スキーで取り扱いしているスキー場の一覧です。<br>関東近郊のスキー場から、東北や郡上八幡のスキー場まで様々なエリアで取扱いがございます。<br>大型の有名なビッグゲレンデから、穴場的なスキー場までご紹介！<br>エリア別に各スキー場の詳細にお進みいただければ、ゲレンデマップやリフト本数など記載しておりますので、ツアーご予約の際にのご参考にどうぞ。
+                    </p>
+                </div>
+                <div class="sp">
+                    <div class="more_box page_txt">
+                        <div class="more_txt more_txt_content">
+                            <p class="text">四季スキーで取り扱いしているスキー場の一覧です。<br>関東近郊のスキー場から、東北や郡上八幡のスキー場まで様々なエリアで取扱いがございます。<br>大型の有名なビッグゲレンデから、穴場的なスキー場までご紹介！<br>エリア別に各スキー場の詳細にお進みいただければ、ゲレンデマップやリフト本数など記載しておりますので、ツアーご予約の際にのご参考にどうぞ。
+                            </p>
+                        </div>
+                        <div class="btn_more more_btn_content">もっと読む</div>
+                    </div>
+                </div>
+
+                <div class="asa-filter" role="group" aria-label="絞り込み"><button type="button" class="af-btn is-on" data-f="all">すべて</button><button type="button" class="af-btn" data-f="bus">バスツアー</button><button type="button" class="af-btn" data-f="mycar">マイカープラン</button></div>
+<ul class="nav_area">
+                    <li>
+                        <a href="#area_1">妙高</a>
+                    </li>
+                    <li>
+                        <a href="#area_2">信州</a>
+                    </li>
+                    <li>
+                        <a href="#area_3">苗場・上越</a>
+                    </li>
+                    <li>
+                        <a href="#area_4">白馬</a>
+                    </li>
+                    <li>
+                        <a href="#area_5">志賀・北志賀</a>
+                    </li>
+                    <li>
+                        <a href="#area_6">尾瀬・群馬</a>
+                    </li>
+                    <li>
+                        <a href="#area_7">東北</a>
+                    </li>
+                    <li>
+                        <a href="#area_8">その他</a>
+                    </li>
+                </ul>
+
+            </div>
 
 
-        <h2 class="ot-h2">ナイスミドルで行くスキー場</h2><div class="ot-list"><a href="../gerende/aidu-takatsue/nsat24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/takatue1-1024x683.jpg" alt="" loading="lazy"><span class="ot-t">会津高原たかつえスキー場<small>バスツアー1本　会津アストリアホテル</small></span></a><a href="../gerende/aomorispring/nsas34/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2024/09/aomorispring-1000x563.jpg" alt="" loading="lazy"><span class="ot-t">青森スプリングリゾート<small>バスツアー1本　ロックウッド・ホテル&スパ</small></span></a><a href="../gerende/arutsu/nsal24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/alts1-1024x683.jpg" alt="" loading="lazy"><span class="ot-t">星野リゾート ネコマ マウンテンスキー場<small>バスツアー1本　あるぱいんロッジ</small></span></a><a href="../gerende/kamui/nskl45/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2023/09/kamui_01-1000x667.jpg" alt="" loading="lazy"><span class="ot-t">カムイスキーリンクス<small>バスツアー1本　ホテルクレッセント旭川</small></span></a><a href="../gerende/happoone/" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/happouone5.jpg" alt="" loading="lazy"><span class="ot-t">八方尾根スキー場<small>バスツアー2本　丸金旅館／白馬丸金旅館</small></span></a><a href="../gerende/itoigawa/nsit24i/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/ITOIGAWA1-1024x576.jpg" alt="" loading="lazy"><span class="ot-t">糸魚川シーサイドバレースキー場<small>バスツアー1本　ホワイトクリフ</small></span></a><a href="../gerende/kagura/nskg35k/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/kagura2.jpg" alt="" loading="lazy"><span class="ot-t">かぐらスキー場<small>バスツアー1本　K・Lodge</small></span></a><a href="../gerende/kiroro/nso145/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2021/02/5ba897d6d697425ab4b38f14e988b482-1000x666.png" alt="" loading="lazy"><span class="ot-t">キロロスノーワールド<small>バスツアー1本　ホテルソニア小樽</small></span></a><a href="../gerende/madarao/nsmd24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/MADARAO1-1024x768.jpg" alt="" loading="lazy"><span class="ot-t">斑尾高原スキー場<small>バスツアー1本　斑尾高原ホテル</small></span></a><a href="../gerende/myokosuginohara/nsms35/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/MYOKOUSUGINOHARA1-1024x682.jpg" alt="" loading="lazy"><span class="ot-t">妙高杉ノ原スキー場<small>バスツアー1本　スポーツプラザ四季</small></span></a><a href="../gerende/naeba/nsna35/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/NAEBA6-1024x683.jpg" alt="" loading="lazy"><span class="ot-t">Mt.Naeba<small>バスツアー1本　ホテル丁</small></span></a><a href="../gerende/nozawa/" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/NOZAWA1-1024x683.jpg" alt="" loading="lazy"><span class="ot-t">野沢温泉スキー場<small>バスツアー2本　朝日屋旅館</small></span></a><a href="../gerende/okutadami/nsok34/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2021/08/coursemap-okutadami-1-1000x938.jpg" alt="" loading="lazy"><span class="ot-t">奥只見丸山スキー場<small>バスツアー1本　緑の学園</small></span></a><a href="../gerende/ozeiwakura/" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/OZEIWAKURA1-1024x682.jpg" alt="" loading="lazy"><span class="ot-t">ホワイトワールド尾瀬岩鞍スキー場<small>バスツアー4本　かさしな館／岩鞍ハウス</small></span></a><a href="../gerende/rusutsu/nsrr45/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2020/10/04464312c1dd0aad11ec57fc5be2eeae.jpg" alt="" loading="lazy"><span class="ot-t">ルスツリゾート<small>バスツアー1本</small></span></a><a href="../gerende/shigakogen/" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/SHIGA1-1024x678.jpg" alt="" loading="lazy"><span class="ot-t">志賀高原スキー場<small>バスツアー3本　ホテルジャパン志賀／ホテル金栄</small></span></a><a href="../gerende/shizukuishi/nssz34/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2023/09/shizukuishi02-1000x785.jpg" alt="" loading="lazy"><span class="ot-t">雫石スキー場<small>バスツアー1本　雫石プリンスホテル</small></span></a><a href="../gerende/sugadairakogen/nssu24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/SUGADAIRA1-1024x683.jpg" alt="" loading="lazy"><span class="ot-t">菅平高原スノーリゾート<small>バスツアー1本</small></span></a><a href="../gerende/madarao/nsmt24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/Tanguramu8-1000x797.jpg" alt="" loading="lazy"><span class="ot-t">タングラムスキーサーカス<small>バスツアー1本</small></span></a><a href="../gerende/tazawako/nsta34/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2025/09/tazawako-1000x563.jpg" alt="" loading="lazy"><span class="ot-t">たざわ湖スキー場<small>バスツアー1本　亀の井ホテル田沢湖</small></span></a><a href="../gerende/togakushi/nstg24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/togakushi1.jpg" alt="" loading="lazy"><span class="ot-t">戸隠スキー場<small>バスツアー1本　戸隠高原ホテル</small></span></a><a href="../gerende/tsugaike/" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/cdcdf6954a65c448da0a14c77356df9e-1024x680.jpg" alt="" loading="lazy"><span class="ot-t">栂池高原スキー場<small>バスツアー2本　ホテルサニーバレー</small></span></a><a href="../gerende/tsumagoi/nstm24/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2023/09/tsumagoi_01-1000x507.jpg" alt="" loading="lazy"><span class="ot-t">パルコール嬬恋リゾートスキー場<small>バスツアー1本　パルコール嬬恋リゾートホテル</small></span></a><a href="../gerende/zao/nsza35v/index.html" class="ot-card"><img src="../assets/ski/wp/wp-content/uploads/2019/10/Zaouonsen1-684x1024.jpg" alt="" loading="lazy"><span class="ot-t">蔵王温泉スキー場<small>バスツアー1本　森のホテル ヴァルトベルク</small></span></a></div><h2 class="ot-h2">マイカープランのスキー場</h2><div class="mc-list"><a href="../gerende/akakura-resort/">赤倉観光リゾートスキー場</a><a href="../gerende/akakuraonsen/">赤倉温泉スキー場</a><a href="../gerende/appi/">安比高原スキー場</a><a href="../gerende/coruchina/">白馬コルチナ国際スキー場</a><a href="../gerende/gerende-nisekoan/">ニセコアンヌプリ国際スキー場</a><a href="../gerende/hakubagoryu-47/">エイブル白馬五竜＆Hakuba47スキー場</a><a href="../gerende/hakubanorikura/">白馬乗鞍温泉スキー場</a><a href="../gerende/iiduna-resort/">いいづなリゾートスキー場</a><a href="../gerende/ikenotaira/">妙高高原　池の平温泉アルペンブリックスキー場</a><a href="../gerende/inawashiro/">猪苗代スキー場</a><a href="../gerende/ishiuchimaruyama/">石打丸山スキー場</a><a href="../gerende/iwatake/">白馬岩岳スノーフィールド</a><a href="../gerende/joetsukokusai/">上越国際スキー場</a><a href="../gerende/kandatsu/">神立スノーリゾート</a><a href="../gerende/karuizawa-snowpark/">軽井沢スノーパーク</a><a href="../gerende/komaruyama/">北志賀小丸山スキー場</a><a href="../gerende/lottearai/">妙高市</a><a href="../gerende/maiko/">舞子スノーリゾート</a><a href="../gerende/mistery/">ミステリーツアーのスキー場</a><a href="../gerende/ognahotaka/">オグナほたかスキー場</a><a href="../gerende/ozemarunuma/">丸沼高原スキー場</a><a href="../gerende/ozetokura/">スノーパーク尾瀬戸倉スキー場</a><a href="../gerende/romance/">スノーリゾート ロマンスの神様</a><a href="../gerende/ryuo/">北志賀竜王スキーパーク</a><a href="../gerende/tanbara/">たんばらスキーパーク</a><a href="../gerende/togarionsen/">戸狩温泉スキー場</a><a href="../gerende/yuzawa-park/">湯沢パークスキー場</a><a href="../gerende/yuzawakogen/">湯沢高原スキー場</a><a href="../gerende/yuzawanakazato/">湯沢中里スノーリゾート</a></div>
+			                <div id="area_1" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">妙高エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/MYOKOUSUGINOHARA1-1024x682.jpg" alt="妙高杉ノ原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
         </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">妙高杉ノ原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									妙高杉ノ原スキー場：ファミリーにはうれしい！小学生までのお子さま　リフト無料！！
+高低差1,124m、最長滑走距離8.5kmのロングでワイドなスキー場。さらに全長1km、最多アイテム数40以上とスノーパークも充実。上信越自動車道「妙高高原IC」から5km約10分とアクセスも抜群！スノースクートボードも全面滑走OK！
+				
+				
+            </div>
 
-      </div>
-    </section>
-  </article>
+            <a href="../gerende/myokosuginohara/nsms35/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/AKAKURA1-3.jpg" alt="赤倉観光リゾートスキー場のイメージ4" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">赤倉観光リゾートスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									標高1,500mの最上部から4,500mのダウンヒルが楽しめます。ゴンドラ1基、クワッドリフト6基の抜群の輸送力を誇り4ヶ所あるレストランには、それぞれ特徴を持たせたメニューをご用意しております。赤倉温泉街からは無料シャトルバスを運行しており、とっても便利です。
+				
+				
+            </div>
+
+            <a href="../gerende/akakura-resort/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/AKAKURA1.jpg" alt="赤倉温泉スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">赤倉温泉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									赤倉温泉スキー場：ファミリーにはうれしい！小学生までのお子さま　リフト無料！！
+&nbsp;
+ヨーデルゲレンデ・くまどーゲレンデ・銀嶺ゲレンデの3つのエリアには多彩なコースがあり、1日中遊んでも飽きません。
+ワイドでビッグなゲレンデはビギナーに安心で中上級者にも滑りごたえ十分です！インターチェンジから8分とアクセス抜群です。
+				
+				
+            </div>
+
+            <a href="../gerende/akakuraonsen/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Ikenodaira1-1000x667.jpg" alt="妙高池の平温泉スキー場のマイカープランイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">池の平温泉アルペンブリックスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									池の平温泉アルペンブリックスキー場では、スキー、スノボを楽しんだ後に《アルペンブリックスパ　日帰り温泉》（旧ランドマーク妙高高原）でご利用いただける売店、飲食店、温泉施設が併設しておりますので皆様にお過ごしいただいております。
+池の平温泉は標高750mに位置し、四季の眺望が美しい高原の温泉です。
+				
+				
+            </div>
+
+            <a href="../gerende/ikenotaira/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2020/11/BradleyA-9141-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">ロッテアライリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									東京から新幹線で1時間46分、新潟空港から車で2時間に位置する新潟県妙高市。
+妙高山から海まで続く山々と、遥かに広がる田園風景が目を楽しませてくれる風光明媚な土地にロッテアライリゾートがあります。
+冬は一面に広がる雪景色の中ウィンタースポーツを楽しみ、グリーンシーズンは新緑と澄んだ空気を感じながら山並みを堪能。
+年間を通して多彩な魅力を展開していきます。目指すは“最高のプレミアムマウンテンリゾート”。
+世界中のお客様に大毛無山の、そして地域の魅力を伝えていきたいと考えています。
+				
+				
+            </div>
+
+            <a href="../gerende/lottearai/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/ITOIGAWA1-1024x576.jpg" alt="糸魚川シーサイドバレースキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">糸魚川シーサイドバレースキー場</h3>
+            <hr>
+            <div class="text">
+				
+									糸魚川ICから約15分ほどの白馬山麓にあるスキー場。アクセス良好な上に晴れた日には日本海が望めます。ウィンタースポーツを満喫したら、隣接する塩の道温泉でリフレッシュ！お肌がすべすべになると好評です。
+				
+				
+            </div>
+
+            <a href="../gerende/itoigawa/nsit24i/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_2" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">信州エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/NOZAWA1-1024x683.jpg" alt="野沢温泉スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">野沢温泉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									ゲレンデ・コース数44コース。最長滑走距離10kmと日本最大級のビッグエリア！
+コースバリエーションも豊富で初心者から上級者まですべてのお客様にお楽しみ頂けます。
+野沢温泉の名の通り、アフタースキーには温泉でつかれた体をやすめて下さい。
+				
+				
+            </div>
+
+            <a href="../gerende/nozawa/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Togari1-1024x683.jpg" alt="戸狩温泉スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">戸狩温泉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									戸狩温泉スキー場では、大多数の宿泊施設が昔ながらの民宿からロッジ・ペンションへの建て替えが終わり、おしゃれな施設が多くなってきております。ゲレンデ規模は申し分なく満足いくコースが多数点在しております。値段と充実度で考えると100％満点を頂けると思います。外湯の温泉施設もあり施設の横では居酒屋などもあって夜も存分に楽しめます。
+				
+				
+            </div>
+
+            <a href="../gerende/togarionsen/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/MADARAO1-1024x768.jpg" alt="斑尾高原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">斑尾高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									斑尾高原スキー場のゲレンデ構成は一箇所に滑り込むタイプのゲレンデ構成なので、初めて滑った方でも斜面に沿って滑っていくと、平らになった所が集合場所！とても解りやすいです。温泉はシルクイン斑尾とゲレンデ中央の斑尾高原ホテルで楽しむことができますよ。
+				
+				
+            </div>
+
+            <a href="../gerende/madarao/nsmd24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/iizunarezort1-1024x683.jpg" alt="いいづなリゾートスキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">いいづなリゾートスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									新雪・末圧雪コースから、初心者に優しい緩斜面、キッズパークと多彩なコースバリエーションで、初心者から上級者まで楽しめます。
+				
+				
+            </div>
+
+            <a href="../gerende/iiduna-resort/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/togakushi1.jpg" alt="戸隠スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">戸隠スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									魔法の粉雪といわれる上質の雪や絶景が自慢のスキー場。
+19のバラエティ豊かなコースは上級者から初心者まで楽しめる。
+人気の忍者スロープコースは、修行をテーマにし、忍者になった気分で楽しく上達。
+				
+				
+            </div>
+
+            <a href="../gerende/togakushi/nstg24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/SUGADAIRA1-1024x683.jpg" alt="菅平高原スノーリゾートのイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">菅平高原スノーリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									3つのエリアに分かれたゲレンデには、多彩なコース有り！高晴天率で雪質・ゲレンデはいつもコンディション良好！スノーキャットツアーで絶景ポイントの山頂へ、帰りは4kmのロングクルーズ！幹線道路も除雪が整っておりお車でのお越しも安心！
+				
+				
+            </div>
+
+            <a href="../gerende/sugadairakogen/nssu24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/karuizawa1-1-1024x683.jpg" alt="軽井沢スノーパークのイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">軽井沢スノーパーク</h3>
+            <hr>
+            <div class="text">
+				
+									軽井沢スノーパークは、お子様連れでも安心して過ごせるよう配慮されたスキー場としてミキハウス子育て総研がスタートした「ウエルカムファミリーのスキー場」第1号に認定されました。リフト券があれば全てのアトラクションが利用できます。
+				
+				
+            </div>
+
+            <a href="../gerende/karuizawa-snowpark/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2024/10/romance_gerende1-1000x668.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">スノーリゾート ロマンスの神様</h3>
+            <hr>
+            <div class="text">
+				
+									2023-24シーズンから木島平スキー場は
+スノーリゾート ロマンスの神様へ生まれ変わります。
+&nbsp;
+『⽇本屈指のコース幅が魅⼒』
+初⼼者の⽅やファミリーでも安⼼して楽しむコースが多数！！
+キッズ向けウェーブ、本格的に滑りたい⽅や家族で楽しめるファミリーゲレンデ！
+コースの最⼤幅250mでとても広く⼤きなターンで滑ることができるのが最⼤の魅⼒！
+&nbsp;
+『⽇本⼀を誇る最⼤斜度&#8221;46度&#8221;』
+雄⼤な⾃然の地形をそのまま活かした⼭頂の魅⼒はなんといっても⽇本⼀を誇る最⼤斜度46度を滑り落ちるような急斜⾯！
+ほぼ垂直に落ちる圧雪されていない雪の上を滑るハラハラドキドキなコースを楽しめます！
+未体験の極上の《パウダーゾーン》斜⾯に対して⾶び込む感覚のパイオニアコース是⾮体感してください！
+※日本最大傾斜は当社調べによる
+				
+				
+            </div>
+
+            <a href="../gerende/romance/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2024/10/oguna_gerende1-1000x711.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">オグナほたかスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									標高1,828ｍから3.5kmのロングクルージングが体験でき、キッカーやジブアイテムなど多彩なアイテムが揃うスノーパークを設置しスノーボーダーやフリースタイルスキーヤーにも人気があります。また、スノーエスカレーターを使ってのソリ遊びや初めての雪遊びデビューのキッズ広場などもあり、お子様からシニア、初級者から上級者まで幅広いウィンタースポーツプレーヤーが1日楽しめる環境があり、良質なパウダースノーにも恵まれたエリアで隠れパウダーエリアとして人気エリアとなっております。
+				
+				
+            </div>
+
+            <a href="../gerende/ognahotaka/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_3" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">苗場・上越エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/NAEBA6-1024x683.jpg" alt="Mt.Naebaのイメージ6" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">Mt.Naeba</h3>
+            <hr>
+            <div class="text">
+				
+									ファミリーにはうれしい！小学生までのお子さま　リフト無料！！
+日本国内でも広大なゲレンデを良質な雪が楽しめるスキー場として人気を集めています。週末にはゲレンデ打上花火が白銀のゲレンデを彩り、幻想的なひと時を体感できます。スキー場の目の前には、客室数1,200室以上の苗場プリンスホテルがあり、ゲレンデを部屋から一望できます。
+				
+				
+            </div>
+
+            <a href="../gerende/naeba/nsna35/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/ishiuchimaruyama1-1024x683.jpg" alt="石打丸山スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">石打丸山スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									上越エリア最大級の老舗ゲレンデが昨年大幅リユーアル！世界最新鋭のコンビリフトとスタイリッシュなリゾートセンターが同時グランドOPENしました。コンビリフトで一気に行けるゲレンデ中腹には初心者・ファミリー向けの初級ゲレンデとキッズパークが新設されました。
+				
+				
+            </div>
+
+            <a href="../gerende/ishiuchimaruyama/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/6b068d4c2e29b878ffb8d9d8073479c4-1000x662.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">上越国際スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									車でも電車でのアクセス抜群！
+4つのゾーンからなる広大なゲレンデは、雪あそびのお子様からエキスパートまでを魅了するバラエティに富んだ22コース。
+スノーパークやハーフパイプも完備！
+気軽に参加できるイベントやキャンペーンも充実！
+				
+				
+            </div>
+
+            <a href="../gerende/joetsukokusai/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2020/12/ceb7bf29f7f0011694df317a623d64df-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">舞子スノーリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									キッズやビギナーから、ガチなエキスパートまでみんな満足！
+全26コース・最長滑走距離約6000mのゲレンデは
+3つのエリアにより構成されています。
+				
+				
+            </div>
+
+            <a href="../gerende/maiko/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/kagura1.jpg" alt="かぐらスキー場のイメージ1" class="">
+			
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">かぐらスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									かぐらスキー場は、3つのエリアからなる国内屈指のビッグゲレンデ。標高も高く、11月下旬から5月下旬まで滑走でき、初滑りや春スキーの人気は抜群！GWにもスキー・スノボへ！
+みつまたステーション目の前の宿泊先や、GW期間まで苗場のお客様評価の高い宿泊先でも、マイカープランを設定しました。
+				
+				
+            </div>
+
+            <a href="../gerende/kagura/nskg35k/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Yuzawapark1.jpg" alt="湯沢パークスキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">湯沢パークスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									湯沢パークホテルを中心に湯沢パークスキー場・ゴールド越後湯沢カントリークラブなど四季を通じてお楽しみいただけます。
+				
+				
+            </div>
+
+            <a href="../gerende/yuzawa-park/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2021/11/2ad973697501a04d08c87bdcaa57afe5-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">湯沢中里スノーリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									初級者から上級者まで大人気！
+湯沢中里スノーリゾートはスキー＆スノボだけじゃなく、雪遊びもスノーチューブ楽しむことができるのでお子様にも人気です。
+もちろん非圧雪コースもあるのでスキー＆スノボーダーもたっぷり1日を楽しむことができます！
+				
+				
+            </div>
+
+            <a href="../gerende/yuzawanakazato/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Yuzawakogen1.jpg" alt="湯沢高原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">湯沢高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									東京からアクセスしやすい上越エリアのスキー場。初めてのスキーでも安心のでぴったり、なだらかで滑りやすい緩斜面。スキー専用コースが下部にありますので、小さいお子様でも安心です
+				
+				
+            </div>
+
+            <a href="../gerende/yuzawakogen/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2022/10/bakn01_mv-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">神立スノーリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									100％天然雪のスノーリゾート！
+最長滑走距離3.500ｍ！人口地形パークも充実！全16コースで中級者にぴったりのコースレイアウトです。
+大浴場「神の湯」も併設の日帰りのお客様にも注力したスキー場です。
+				
+				
+            </div>
+
+            <a href="../gerende/kandatsu/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2021/08/coursemap-okutadami-1-1000x938.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">奥只見丸山スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									・奥只見丸山スキー場が位置する新潟県魚沼市はあまりの豪雪地帯の為11月中旬～12月の冬と春に2度オープンする珍しいスキー場です。初滑りシーズンはサラサラのパウダースノー、春スキーはコブ斜面滑走、新緑が眩しい4kmの林間コースがおすすめです。
+標高1,242mの山頂から望む山並みと奥只見ダム湖が美しく、閉鎖期間を除いた5月の中旬頃まで大自然の中でスキーを楽しめます。
+				
+				
+            </div>
+
+            <a href="../gerende/okutadami/nsok34/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_4" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">白馬エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Hakubagoryu1-1024x683.jpg" alt="エイブル白馬五竜＆Hakuba47スキー場のイメージ1" class="">
+			
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">エイブル白馬五竜＆Hakuba47スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									白馬五竜スキー場は白馬の玄関口。関西から関東からと多くのお客様でいつもにぎわっております。とおみ、いいもり、47の3ゲレンデの構成となっており、とおみのゲレンデベースには、スキーセンターのエスカルプラザが構えておりお客様の欲求を叶えてくれる。なお白馬五竜47スキー場は降雪の多さから11月下旬から5月のゴールデンウィークまでの長期営業も魅力の一つです。
+				
+				
+            </div>
+
+            <a href="../gerende/hakubagoryu-47/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/happouone5.jpg" alt="八方尾根スキー場のイメージ5" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">八方尾根スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									雄大なパノラマを一望！3,000m級の山々に囲まれた本格的国際山岳リゾートスキー場です。
+1958年より開業しております。何世代に渡るファンの皆様にご愛顧いただき、これからもずっと日本を代表するスキー場として、最高のゲレンデとサービスを提供いたします。
+				
+				
+            </div>
+
+            <a href="../gerende/happoone/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/cdcdf6954a65c448da0a14c77356df9e-1024x680.jpg" alt="栂池高原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">栂池高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									国内最大級の幅1.2kmという広い緩斜面を持つ「栂池高原スキー場」。エキスパートを満足させる極上パウダー「ツガパウ」も話題のエリア。
+初心者から上級者までを納得させるバラエティ豊かなコースやパークが揃い、雪質もトップクラス。
+				
+				
+            </div>
+
+            <a href="../gerende/tsugaike/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/iwatake1-1024x384.jpg" alt="白馬岩岳スノーフィールドのイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">白馬岩岳スノーフィールド</h3>
+            <hr>
+            <div class="text">
+				
+									白馬岩岳スノーフィールドでは目も前に壮大なパノラマが広がる。ゴンドラで山頂にアクセスすると北アルプスの山々が広がる。隣の八方尾根スキー場から白馬五竜47スキー場まで見渡せる景観は絶景そのもの。ゴンドラもある広大なスキー場を、四季倶楽部旅のツアーでは破格値でご用意しております。白馬エリアの豪雪パウダースノーをぜひお楽しみ下さい。
+				
+				
+            </div>
+
+            <a href="../gerende/iwatake/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/hakunori_coruchina1-1.jpg" alt="白馬乗鞍温泉スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">白馬乗鞍温泉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									白馬エリアの穴場ともいえるスキー場で、オフピステコース多数！隣接する白馬コルチナ国際スキー場と共通券にすれば乗り入れも可能！
+				
+				
+            </div>
+
+            <a href="../gerende/hakubanorikura/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/hakunori_coruchina1.jpg" alt="白馬コルチナ国際スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">白馬コルチナ国際スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									天然雪100％のパウダースノーは白馬エリアでも屈指の雪質。全16コースで初級者から上級者まで楽しめます。隣接する白馬乗鞍温泉スキー場と共通リフト券で、両スキー場の往来が可能となっており、滑り飽きないコース数となっている。
+				
+				
+            </div>
+
+            <a href="../gerende/coruchina/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_5" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">志賀・北志賀エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/SHIGA1-1024x678.jpg" alt="志賀高原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">志賀高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									横手山、東館山、焼額山の3つのピークから広がる志賀高原。日本海からの湿った空気は、日本アルプスに湿雪を降らせ、乾いたサラサラの雪だけが志賀高原にたどり着く。標高が高く、11～5月までのロングシーズン、安定したゲレンデコンディションを提供する。
+				
+				
+            </div>
+
+            <a href="../gerende/shigakogen/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/komaruyama6.jpg" alt="北志賀小丸山スキー場のイメージ6" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">北志賀小丸山スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									北志賀高原の東よりにあって北向きのゲレンデは雪質が最高。コンパクトにまとまってグループ全員が楽しめるスキー場です。
+				
+				
+            </div>
+
+            <a href="../gerende/komaruyama/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Ryuou1.jpg" alt="北志賀竜王スキーパークのイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">北志賀竜王スキーパーク</h3>
+            <hr>
+            <div class="text">
+				
+									標高1,770mの竜王ロープウェイ山頂からは条件が合えば雲海が広がり、訪れた人にしか味わえない幻想的な世界。
+ロープウェイ山頂駅に隣接する「SORA terrace cafe」は2017年8月にリニューアルオープン。
+地元食材を使ったオリジナルのカフェメニューが楽しめる。
+そしてゲレンデ上部「スカイランドエリア」はパウダー好きにはたまらない特別なエリア。名物「木落しコース」はパウダー好きには有名。メインゲレンデ「バレーエリア」はフラット＆ワイドバーン。地形で遊べるエリアになっている。
+				
+				
+            </div>
+
+            <a href="../gerende/ryuo/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_6" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">尾瀬・群馬エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/OZEIWAKURA1-1024x682.jpg" alt="ホワイトワールド尾瀬岩鞍スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">ホワイトワールド尾瀬岩鞍スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									最大傾斜40度の上級者コースからファミリーで遊べる初心者コースまで18のコースを12基のリフトがバランスよく配備されています。
+スノーエスカレーター付きのキッズパークや3才から学べるキッズスクール、託児所も完備されています。
+				
+				
+            </div>
+
+            <a href="../gerende/ozeiwakura/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/OzetokuraMap-1024x724.jpg" alt="スノーパーク尾瀬戸倉スキー場のゲレンデマップ" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">スノーパーク尾瀬戸倉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									自然の地形を活かした多彩なコースレイアウト！
+首都圏から一番近いスーパーハーフパイプをしっかり整備、管理しています。またゲレンデに隣接したホテルも完備！
+				
+				
+            </div>
+
+            <a href="../gerende/ozetokura/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/marunuma006-1024x768.jpg" alt="丸沼高原スキー場のイメージ6" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">丸沼高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									練馬インターから丸沼高原まで2時間30分！初滑りに最適な近場のスキー場で足慣らしへ。四季スキーでは12月の日程限定で朝発1泊のツアーでご案内します！
+				
+				
+            </div>
+
+            <a href="../gerende/ozemarunuma/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2021/11/40f603d4e9bf356253723956fd7ffbfc-1-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">たんばらスキーパーク</h3>
+            <hr>
+            <div class="text">
+				
+									東京からたったの2時間！サラサラの雪質とロングシーズン滑走可能のたんばらスキーパークはお子様やファミリー・初心者向けのやさしいコースが大人気！パークも充実しているのでスノーボーダーからの支持も高くリピータも沢山！スキーとスノボのレンタルも充実しています。
+				
+				
+            </div>
+
+            <a href="../gerende/tanbara/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2023/09/tsumagoi_01-1000x507.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">パルコール嬬恋リゾートスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									軽井沢と温泉で有名な草津の中間地点に位置するパルコール嬬恋スキー場はコース数22コース。
+関東最⻑のゴンドラ（3,193m）で⼀気に標⾼2,100mの⼭頂へ登れば、そこから⾒える⽇本離れした景色と雪質の良さに驚くことでしょう。
+標⾼の⾼さと完備された⼈⼯降雪機で、12⽉初旬から4⽉7日までの滑⾛が可能です。
+中毒性MAXの⽇本最⼤級のパーク、神がかったサンライズ。五感を満たすパルコール嬬恋をお楽しみください。
+				
+				
+            </div>
+
+            <a href="../gerende/tsumagoi/nstm24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_7" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">東北エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/alts1-1024x683.jpg" alt="星野リゾート アルツ磐梯スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">星野リゾート ネコマ マウンテンスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									アルツ磐梯と猫魔スキー場が連結リフトでつながり、星野リゾート　ネコマ　マウンテン　として誕生！！
+全33コースの最大級ゲレンデをお楽しみください！
+				
+				
+            </div>
+
+            <a href="../gerende/arutsu/nsal24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/inawasihiro-1.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag">マイカープラン</span></div><h3 class="title">猪苗代スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									ビギナーからエキスパートまで満足できる18本のコースがあり、リフトは10本、レンタルスキーやレストラン等もあるほか、大浴場も兼ね備えている
+磐梯山を猪苗代湖に囲まれたロケーションが魅力。
+				
+				
+            </div>
+
+            <a href="../gerende/inawashiro/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus mycar">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/takatue1-1024x683.jpg" alt="会津高原たかつえスキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span><span class="ls-tag">マイカープラン</span></div><h3 class="title">会津高原たかつえスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									初心者から上級者までバラエティー豊かなコース。山頂からの眺望は絶景！キッズパーク、スノーバークも充実。
+				
+				
+            </div>
+
+            <a href="../gerende/aidu-takatsue/nsat24/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/Zaouonsen1-684x1024.jpg" alt="蔵王温泉スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">蔵王温泉スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									雪質抜群のパウダースノーで楽しめる変化に富んだゲレンデ・コース。全長約10kmにおよぶロングコースは爽快です。
+夜は幻想的な雰囲気に包まれる『樹氷ライトアップ』。東北最大級のスノーリゾートエリアをご満喫ください。
+				
+				
+            </div>
+
+            <a href="../gerende/zao/nsza35v/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/APPI1-683x1024.jpg" alt="安比高原スキー場のイメージ1" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">安比高原スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									安比高原スキー場のゲレンデは、ほとんどが日照時間の短い北向きの斜面です。昨シーズンからはパウダーランを楽しめる非圧雪エリアを追加開放します。パウダースノーよりさらに極めて上質なアスピリンスノーをお楽しみ頂けます。
+				
+				
+            </div>
+
+            <a href="../gerende/appi/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2023/09/shizukuishi02-1000x785.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">雫石スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									北東北屈指のスノーリゾート「雫石」。こどもからおとなまで夢中になれる「雪遊びパラダイス」
+				
+				
+            </div>
+
+            <a href="../gerende/shizukuishi/nssz34/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2024/09/aomorispring-1000x563.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">青森スプリングリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									詳しくは下部よりツアー紹介ページをご覧ください。
+				
+				
+            </div>
+
+            <a href="../gerende/aomorispring/nsas34/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			                <div id="area_8" class="anc"></div>
+                <section class="item-list">
+                    <div class="inner_box">
+                        <div class="ttl_special_sec">
+                            <h2 class="in_text">その他エリアのスキー場</h2>
+                        </div>
+                        <ul class="plan-items">
+															                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2025/09/tazawako-1000x563.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">たざわ湖スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									田沢湖を眺めながら滑れる「感動のロケーション」！
+				
+				
+            </div>
+
+            <a href="../gerende/tazawako/nsta34/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2024/09/nisekoan_main-1000x750.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">ニセコアンヌプリ国際スキー場</h3>
+            <hr>
+            <div class="text">
+				
+									詳しくは下部よりツアー紹介ページをご覧ください。
+				
+				
+            </div>
+
+            <a href="../gerende/gerende-nisekoan/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2020/10/04464312c1dd0aad11ec57fc5be2eeae.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">ルスツリゾート</h3>
+            <hr>
+            <div class="text">
+				
+									詳しくは下部よりツアー紹介ページをご覧ください。
+				
+				
+            </div>
+
+            <a href="../gerende/rusutsu/nsrr45/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="bus">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2021/02/5ba897d6d697425ab4b38f14e988b482-1000x666.png" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"><span class="ls-tag ls-tag--bus">バスツアー</span></div><h3 class="title">キロロスノーワールド</h3>
+            <hr>
+            <div class="text">
+				
+									北海道でも 最高レベルの雪質は国内外のスキーヤーに絶大な人気を誇ります。
+				
+				
+            </div>
+
+            <a href="../gerende/kiroro/nso145/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2019/10/xx.jpg" alt="ミステリーのスキー場" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">ミステリーのスキー場</h3>
+            <hr>
+            <div class="text">
+				
+									12月のまだ各地雪が少ない時期には、雪が良さそうなスキー場へ行く、ミステリーツアー
+				
+				
+            </div>
+
+            <a href="../gerende/mistery/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+								                                    <li data-kind="">
+    <div class="box">
+        <div class="screen plan-image">
+			
+			                <img src="../assets/ski/wp/wp-content/uploads/2023/09/kamui_01-1000x667.jpg" alt="" class="">
+			
+			
+			
+			                <!-- none info -->
+			
+        </div>
+        <div class="in_box">
+            <div class="ls-tags"></div><h3 class="title">カムイスキーリンクス</h3>
+            <hr>
+            <div class="text">
+				
+									詳しくは下部よりツアー紹介ページをご覧ください。
+				
+				
+            </div>
+
+            <a href="../gerende/kamui/nskl45/index.html" class="btn"><div class="in_text">プランを見る</div></a>
+        </div>
+    </div>
+</li>
+																							                        </ul>
+                    </div>
+                </section>
+			
+
+        </section>
+    </article>
 </main>
 <footer class="normal">
     <div id="nav_foot">
@@ -344,10 +1833,10 @@ main h1.h1_ttl,main h2.in_text,main h3.ttl_box,main .faq_ttl,main .h2_ttl,main .
 
 
                     <!-- <a href="../bustour/special-b/koikatsu/index.html" class="single">婚活・恋活ツアー</a> -->
-                    <a href="https://www.shikiclub.co.jp/ski/gerende/yeti/h565s/" class="single">ちびっこのスキースノボツアー</a>
+                    <a href="../gerende/yeti/h565s/index.html" class="single">ちびっこのスキースノボツアー</a>
                     <!-- <a href="../bustour/special-b/children-family/index.html" class="single">[特集]ファミリースキースノボ</a> -->
                     <a href="../bustour/special-b/lesson/index.html" class="single">レッスン付スキーツアー</a>
-                    <a href="https://www.shikiclub.co.jp/ski/h361/" class="single last">奥日光でスノーシュー</a>
+                    <a href="../h361/index.html" class="single last">奥日光でスノーシュー</a>
 
 
                 </div>
@@ -569,6 +2058,6 @@ jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeTex
     });
 </script>
 
-<div class="asa-vsw"><span>案を切り替え</span><a href="../gerende/a/index.html">A ナイスミドルのスキー場だけ</a><a href="../gerende/b/index.html">B スキー場ごとにツアー＋宿</a><a href="../gerende/c/index.html">C 一覧を2段に</a><a href="../gerende/d/index.html">D エリア別＋泊数</a><a href="../gerende/index.html" class="on">現行</a></div>
+<script id="asa-filter-js">document.addEventListener("DOMContentLoaded",function(){var bs=document.querySelectorAll(".af-btn");bs.forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;bs.forEach(function(x){x.classList.toggle("is-on",x===b)});document.querySelectorAll(".plan-items li").forEach(function(li){var ok=f==="all"||(li.dataset.kind||"").split(" ").indexOf(f)>=0;li.classList.toggle("is-hide",!ok)});document.querySelectorAll("section.item-list").forEach(function(sec){var vis=sec.querySelectorAll(".plan-items li:not(.is-hide)").length;sec.classList.toggle("is-hide",vis===0);var a=sec.previousElementSibling;if(a&&a.classList.contains("anc"))a.classList.toggle("is-hide",vis===0)});document.querySelectorAll(".nav_area li").forEach(function(li){var h=li.querySelector("a").getAttribute("href");var sec=document.querySelector(h);sec=sec&&sec.nextElementSibling;li.style.display=(sec&&sec.classList.contains("is-hide"))?"none":""})})})});</script>
 </body>
 </html>
